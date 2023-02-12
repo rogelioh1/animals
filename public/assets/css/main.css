@@ -687,6 +687,7 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+
 .col {
   flex: 1 0 0%;
 }
@@ -11330,4 +11331,9 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
 }

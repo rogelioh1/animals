@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", event => {
 
   function signOut() {
         location.href = 'index.html';
-
   }
 
   window.addEventListener('DOMContentLoaded', event => {
@@ -36,5 +35,3 @@ document.addEventListener("DOMContentLoaded", event => {
         });
     }
 });
-
-       
