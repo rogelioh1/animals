@@ -1,28 +1,9 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-import { getAuth } from "../../firebase.js";
-
-// Import the functions you need from the SDKs you nee
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD2VV0-kWrRKNbaPZLhtmBXzqHIPDDXh0Y",
-  authDomain: "animalfarm-92073.firebaseapp.com",
-  projectId: "animalfarm-92073",
-  storageBucket: "animalfarm-92073.appspot.com",
-  messagingSenderId: "346073066136",
-  appId: "1:346073066136:web:fa39cf50e9c3ad05fa3eed"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-const auth = getAuth(app);
-console.log(initializeApp)
 document.addEventListener("DOMContentLoaded", event => {
     const app = firebase.app();
   
-})
+  })
   
-function googleLogin() {
+  function googleLogin() {
     const provider = new firebase.auth.GoogleAuthProvider();
   
     firebase.auth().signInWithPopup(provider)
@@ -32,6 +13,11 @@ function googleLogin() {
             console.log(user)
         })
         .catch(console.log)
+  }
+
+  function signOut() {
+        location.href = 'index.html';
+
   }
 
   window.addEventListener('DOMContentLoaded', event => {
@@ -50,3 +36,5 @@ function googleLogin() {
         });
     }
 });
+
+       

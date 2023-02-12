@@ -385,6 +385,10 @@ button:not(:disabled),
   cursor: pointer;
 }
 
+#examplemodal2 {
+ align-self: center;
+}
+
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
