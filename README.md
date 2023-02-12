@@ -1,1 +1,1 @@
-<h3 align="center">Pet Adoption Site</h3>
+<h3 align="center">PerfectPets: A pet adoption site</h3>
