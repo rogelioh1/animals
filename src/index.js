@@ -4,12 +4,12 @@ import { getAuth } from "../../firebase.js";
 // Import the functions you need from the SDKs you nee
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBlLZhevkkIQNDOTk77H3frfje7i3FT688",
-  authDomain: "animals-93892.firebaseapp.com",
-  projectId: "animals-93892",
-  storageBucket: "animals-93892.appspot.com",
-  messagingSenderId: "292135346726",
-  appId: "1:292135346726:web:12cb70b0699fae44683ce7"
+  apiKey: "AIzaSyD2VV0-kWrRKNbaPZLhtmBXzqHIPDDXh0Y",
+  authDomain: "animalfarm-92073.firebaseapp.com",
+  projectId: "animalfarm-92073",
+  storageBucket: "animalfarm-92073.appspot.com",
+  messagingSenderId: "346073066136",
+  appId: "1:346073066136:web:fa39cf50e9c3ad05fa3eed"
 };
 
 // Initialize Firebase
